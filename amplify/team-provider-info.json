@@ -1,0 +1,24 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ehr-dev-20190726115411-authRole",
+            "UnauthRoleArn": "arn:aws:iam::623916143630:role/ehr-dev-20190726115411-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::623916143630:role/ehr-dev-20190726115411-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ehr-dev-20190726115411-deployment",
+            "UnauthRoleName": "ehr-dev-20190726115411-unauthRole",
+            "StackName": "ehr-dev-20190726115411",
+            "StackId": "arn:aws:cloudformation:us-east-1:623916143630:stack/ehr-dev-20190726115411/fe3057f0-afc5-11e9-9b10-0a6bdb6a0e76"
+        },
+        "categories": {
+            "function": {
+                "ehr0362366fPostConfirmation": {
+                    "GROUP": "ehr-tenant-admin"
+                }
+            },
+            "auth": {
+                "ehr0362366f": {}
+            }
+        }
+    }
+}

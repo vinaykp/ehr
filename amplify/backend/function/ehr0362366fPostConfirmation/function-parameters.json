@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "add-to-group"
+    ],
+    "parentResource": "ehr0362366f",
+    "functionName": "ehr0362366fPostConfirmation",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PostConfirmation.json.ejs",
+    "roleName": "ehr0362366fPostConfirmation",
+    "skipEdit": true,
+    "resourceName": "ehr0362366fPostConfirmation"
+}

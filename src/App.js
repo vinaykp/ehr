@@ -1,26 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import awsconfig from './aws-exports';
+import Amplify, { Analytics, Storage } from 'aws-amplify';
+import { withAuthenticator, S3Album } from 'aws-amplify-react';
+
+Amplify.configure(awsconfig);
+
+class App extends React.Component {
+
+
+  uploadFile = (evt) => {
+    const file = evt.target.files[0];
+    const name = file.name;
+  
+    Storage.put(name, file).then(() => {
+      this.setState({ file: name });
+    })
+  }
+  
+  componentDidMount() {
+    //Analytics.record('Amplify_CLI');
+  }
+  
+  render() {
+    return (
+      <div className="App">
+        <p> Pick a file</p>
+        <input type="file" onChange={this.uploadFile} />
+        <S3Album level="private" path='' />
+      </div>
+    );
+  }
 }
 
-export default App;
+
+export default withAuthenticator(App, {
+  includeGreetings: true, 
+  signUpConfig: {
+    signUpFields: [
+      { label: "Company Name", 
+      key: "custom:tenantName", 
+      required: true, 
+      type: "string" ,       
+      displayOrder: 1,
+      custom: true
+    }
+    ]
+}});
+

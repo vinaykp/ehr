@@ -1,0 +1,20 @@
+{
+    "appName": "ehr",
+    "roleName": "pinpointLambdaRole83ddf905",
+    "cloudWatchPolicyName": "cloudWatchPolicy83ddf905",
+    "pinpointPolicyName": "pinpointPolicy83ddf905",
+    "authPolicyName": "pinpoint_amplify_83ddf905",
+    "unauthPolicyName": "pinpoint_amplify_83ddf905",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
