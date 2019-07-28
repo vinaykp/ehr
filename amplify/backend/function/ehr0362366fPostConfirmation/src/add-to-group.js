@@ -21,7 +21,7 @@ exports.handler = async (event, context, callback) => {
       },
       {
         Name: 'custom:tenantId',
-        Value: Math.floor(100000 + Math.random() * 900000)
+        Value: Math.random().toString(36).substring(7)
       }
     ],
     UserPoolId: event.userPoolId,
