@@ -133,7 +133,7 @@ Conditions:
 
 Resources:
   
-  
+    
   # BEGIN SNS ROLE RESOURCE
   SNSRole: 
   # Created to allow the UserPool SMS Config to publish via the Simple Notification Service during MFA Process
@@ -404,9 +404,29 @@ Resources:
       clientId: !Ref UserPoolClient
       userpoolId: !Ref UserPool
     DependsOn: UserPoolClientLogPolicy
-  
 
   
+  
+    UserPoolGroupAdmin:
+    Type: 'AWS::Cognito::UserPoolGroup'
+    Properties:
+      GroupName: ehr_tenant_admin
+      UserPoolId: !Ref UserPool  
+  UserPoolGroupDoctor:
+    Type: 'AWS::Cognito::UserPoolGroup'
+    Properties:
+      GroupName: ehr_tenant_doctor
+      UserPoolId: !Ref UserPool  
+  UserPoolGroupNurse:
+    Type: 'AWS::Cognito::UserPoolGroup'
+    Properties:
+      GroupName: ehr_tenant_nurse
+      UserPoolId: !Ref UserPool 
+  UserPoolGroupCashier:
+    Type: 'AWS::Cognito::UserPoolGroup'
+    Properties:
+      GroupName: ehr_tenant_cashier
+      UserPoolId: !Ref UserPool   
   
 
   
