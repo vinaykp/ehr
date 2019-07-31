@@ -407,7 +407,7 @@ Resources:
 
   
   
-    UserPoolGroupAdmin:
+  UserPoolGroupAdmin:
     Type: 'AWS::Cognito::UserPoolGroup'
     Properties:
       GroupName: ehr_tenant_admin
