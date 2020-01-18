@@ -1,4 +1,6 @@
-[
+{
+  "patients":
+  [
   {
     "id": 1,
     "firstName": "Merilee",
@@ -320,4 +322,5 @@
     ],
     "history":[]
   }
-]
+  ]
+}
