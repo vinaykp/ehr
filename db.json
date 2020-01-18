@@ -42,17 +42,17 @@
     "medication": [
       {
         "name": "Metformin Hydrochloride",
-        "dose": 418.0,
+        "dose": 418.01,
         "frequency": "Never"
       },
       {
         "name": "Baclofen",
-        "dose": 258.2,
+        "dose": 258.02,
         "frequency": "Yearly"
       },
       {
         "name": "Rugby Nicotine Polacrilex Gum, Coated Mint Flavor",
-        "dose": 446.2,
+        "dose": 446.12,
         "frequency": "Yearly"
       }
     ],
@@ -105,12 +105,12 @@
     "medication": [
       {
         "name": "HOUSE DUST",
-        "dose": 152.6,
+        "dose": 152.06,
         "frequency": "Once"
       },
       {
         "name": "DESPEC",
-        "dose": 183.9,
+        "dose": 183.09,
         "frequency": "Yearly"
       }
     ],
@@ -165,12 +165,12 @@
     "medication": [
       {
         "name": "Estradiol",
-        "dose": 180.8,
+        "dose": 180.08,
         "frequency": "Yearly"
       },
       {
         "name": "Penicillin V Potassium",
-        "dose": 297.3,
+        "dose": 297.03,
         "frequency": "Weekly"
       }
     ],
@@ -227,17 +227,17 @@
     "medication": [
       {
         "name": "Eupatorium comp.",
-        "dose": 212.4,
+        "dose": 212.04,
         "frequency": "Often"
       },
       {
         "name": "Dopamine Hydrochloride",
-        "dose": 204.6,
+        "dose": 204.06,
         "frequency": "Once"
       },
       {
         "name": "Oxygen",
-        "dose": 292.8,
+        "dose": 292.08,
         "frequency": "Once"
       }
     ],
@@ -296,17 +296,17 @@
     "medication": [
       {
         "name": "SUMATRIPTAN",
-        "dose": 229.0,
+        "dose": 229.01,
         "frequency": "Weekly"
       },
       {
         "name": "Cefdinir",
-        "dose": 265.5,
+        "dose": 265.05,
         "frequency": "Never"
       },
       {
         "name": "Calcium Acetate",
-        "dose": 480.9,
+        "dose": 480.09,
         "frequency": "Often"
       }
     ],
