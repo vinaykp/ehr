@@ -1,5 +1,4 @@
 [
-
   {
     "id": 1,
     "firstName": "Merilee",
@@ -63,52 +62,6 @@
       {
         "name": "Polio (IPV)",
         "date": "2009-02-06"
-      }
-    ],
-    "history":[]
-  },
-  {
-    "id": 2,
-    "firstName": "Jolyn",
-    "lastName": "Leaman",
-    "gender": "Female",
-    "dob": "2007-04-07",
-    "bloodGroup": "A-",
-    "maritalStatus": "Married",
-    "smoke": false,
-    "alcohol": true,
-    "adhaar": "5342410452",
-    "phone": "231-841-4727",
-    "email": "jleaman1@independent.co.uk",
-    "address": {
-      "street": "0 South Way",
-      "city": "Muskegon",
-      "state": "MI",
-      "zip": 467361
-    },
-    "status": "In",
-    "vital": {
-      "weight": 85.04,
-      "height": 5.92,
-      "temperature": 82.14,
-      "bp": "120/80",
-      "pulse": 80,
-      "respiration": 10
-    },
-    "allergy": [],
-    "medication": [],
-    "immunization": [
-      {
-        "name": "Measles, mumps, rubella (MMR)",
-        "date": "2005-01-08"
-      },
-      {
-        "name": "Polio (IPV)",
-        "date": "2007-09-09"
-      },
-      {
-        "name": "Chickenpox",
-        "date": "2000-12-30"
       }
     ],
     "history":[]
