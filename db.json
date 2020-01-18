@@ -1,14 +1,370 @@
-{
-  "patients": [{"id":1,"firstName":"Hallie","lastName":"Kinglake","email":"hkinglake0@accuweather.com","gender":"Female","dob":"2013-11-20","bloodGroup":"AB+","maritalStatus":"Divorced","smoke":false,"alcohol":false,"adhaar":"6351179696","address":{"street":"53499 Lillian Way","city":"Washington","state":"DC","zip":643933},"status":"Out","vital":{"weight":62.76,"height":5.87,"temparature":91.26,"bp":"120/80","pulse":87,"respiration":16},"allergy":[{"name":"Floride","severity":"Mild"}],"medication":[],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2006-06-22"},{"name":"Polio (IPV)","date":"2001-02-22"}],"history":[{"type":"Medical","name":"Diabetes","notes":null},{"type":"Family","name":"Heart","notes":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."}]},
-    {"id":2,"firstName":"Herschel","lastName":"Gudeman","email":"hgudeman1@google.co.jp","gender":"Male","dob":"2016-03-13","bloodGroup":"A+","maritalStatus":"Married","smoke":true,"alcohol":true,"adhaar":"5204978550","address":{"street":"202 Transport Point","city":"Minneapolis","state":"MN","zip":410449},"status":"In","vital":{"weight":96.84,"height":4.4,"temparature":98.59,"bp":"120/80","pulse":85,"respiration":18},"allergy":[{"name":"Peanut","severity":"Mild"}],"medication":[],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2005-09-08"}],"history": []},
-    {"id":3,"firstName":"Ardene","lastName":"Kent","email":"akent2@wiley.com","gender":"Female","dob":"2003-01-16","bloodGroup":"A+","maritalStatus":"Divorced","smoke":false,"alcohol":false,"adhaar":"3874570819","address":{"street":"86 Parkside Court","city":"San Diego","state":"CA","zip":661651},"status":"Inactive","vital":{"weight":156.27,"height":5.07,"temparature":100.45,"bp":"120/80","pulse":88,"respiration":21},"allergy":[{"name":"Floride","severity":"Mild"},{"name":"Latex","severity":"Moderate"}],"medication":[{"name":"MELAMIN Skin Bleaching and Correcting","dose":123.7,"frequency":"Daily"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2001-12-02"},{"name":"Polio (IPV)","date":"2007-06-20"},{"name":"Chickenpox","date":"2002-12-15"}],"history":[]},
-    {"id":4,"firstName":"Kimble","lastName":"Skittrell","email":"kskittrell3@china.com.cn","gender":"Male","dob":"2017-01-31","bloodGroup":"O-","maritalStatus":"Married","smoke":false,"alcohol":false,"adhaar":"0980998220","address":{"street":"467 Brown Lane","city":"Saint Paul","state":"MN","zip":289830},"status":"In","vital":{"weight":90.14,"height":4.95,"temparature":91.74,"bp":"140/90","pulse":87,"respiration":13},"allergy":[{"name":"Pencilin","severity":"Mild"},{"name":"Pencilin","severity":"Moderate"}],"medication":[{"name":"Arnicare","dose":372.2,"frequency":"Never"},{"name":"Recovery","dose":350.0,"frequency":"Yearly"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2008-01-31"},{"name":"Polio (IPV)","date":"2004-08-15"},{"name":"Chickenpox","date":"2006-03-19"}],"history": []},
-    {"id":5,"firstName":"Floyd","lastName":"Spinley","email":"fspinley4@360.cn","gender":"Male","dob":"2019-10-09","bloodGroup":"O+","maritalStatus":"Married","smoke":true,"alcohol":true,"adhaar":"8062910296","address":{"street":"3457 Green Parkway","city":"Anaheim","state":"CA","zip":750924},"status":"Inactive","vital":{"weight":94.52,"height":4.2,"temparature":104.63,"bp":"120/80","pulse":100,"respiration":18},"allergy":[{"name":"Floride","severity":"Mild"},{"name":"Floride","severity":"Moderate"}],"medication":[{"name":"LISINOPRIL AND HYDROCHLOROTHIAZIDE","dose":468.6,"frequency":"Daily"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2009-01-07"},{"name":"Polio (IPV)","date":"2008-10-15"},{"name":"Chickenpox","date":"2008-03-27"}],"history":[]},
-    {"id":6,"firstName":"Geno","lastName":"Tolfrey","email":"gtolfrey5@youtube.com","gender":"Male","dob":"2009-05-09","bloodGroup":"O-","maritalStatus":"Divorced","smoke":false,"alcohol":false,"adhaar":"7828704569","address":{"street":"28920 Linden Trail","city":"Jamaica","state":"NY","zip":221757},"status":"In","vital":{"weight":123.69,"height":6.44,"temparature":92.36,"bp":"140/90","pulse":91,"respiration":12},"allergy":[],"medication":[],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2006-12-26"}],"history":[]},
-    {"id":7,"firstName":"Thea","lastName":"Braferton","email":"tbraferton6@wix.com","gender":"Female","dob":"2018-03-04","bloodGroup":"AB+","maritalStatus":"Divorced","smoke":true,"alcohol":true,"adhaar":"8179720454","address":{"street":"2198 Dawn Circle","city":"Hartford","state":"CT","zip":369112},"status":"Inactive","vital":{"weight":173.7,"height":6.03,"temparature":96.69,"bp":"120/80","pulse":82,"respiration":22},"allergy":[],"medication":[],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2006-09-20"}],"history":[{"type":"Medical","name":"Hypertension","notes":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."},{"type":"Family","name":"Asthma","notes":null}]},
-    {"id":8,"firstName":"Peterus","lastName":"Boatwright","email":"pboatwright7@dot.gov","gender":"Male","dob":"2009-07-15","bloodGroup":"O+","maritalStatus":"Married","smoke":false,"alcohol":true,"adhaar":"9173123064","address":{"street":"356 Stuart Plaza","city":"Grand Rapids","state":"MI","zip":875192},"status":"Inactive","vital":{"weight":190.9,"height":6.33,"temparature":89.16,"bp":"120/80","pulse":81,"respiration":11},"allergy":[{"name":"Pencilin","severity":"Mild"}],"medication":[{"name":"TOURCIA","dose":109.7,"frequency":"Never"},{"name":"Wingscale","dose":329.7,"frequency":"Often"},{"name":"REVITALIZING C","dose":102.5,"frequency":"Daily"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2000-02-03"},{"name":"Polio (IPV)","date":"2000-02-06"}],"history": []},
-    {"id":9,"firstName":"Johann","lastName":"Hardington","email":"jhardington8@webnode.com","gender":"Male","dob":"2014-07-02","bloodGroup":"A-","maritalStatus":"Married","smoke":true,"alcohol":true,"adhaar":"2826319914","address":{"street":"92494 Judy Parkway","city":"Prescott","state":"AZ","zip":637822},"status":"Out","vital":{"weight":195.38,"height":6.02,"temparature":91.57,"bp":"120/80","pulse":85,"respiration":16},"allergy":[],"medication":[{"name":"Rocuronium Bromide","dose":195.9,"frequency":"Once"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2009-10-02"},{"name":"Polio (IPV)","date":"2003-08-03"},{"name":"Chickenpox","date":"2000-09-08"}],"history": []},
-    {"id":10,"firstName":"Vaclav","lastName":"Goulbourn","email":"vgoulbourn9@wunderground.com","gender":"Male","dob":"2003-01-03","bloodGroup":"AB+","maritalStatus":"Married","smoke":false,"alcohol":false,"adhaar":"1545380104","address":{"street":"400 Bluestem Pass","city":"Charlotte","state":"NC","zip":952630},"status":"Inactive","vital":{"weight":79.38,"height":5.68,"temparature":103.19,"bp":"120/80","pulse":86,"respiration":21},"allergy":[{"name":"Peanut","severity":"Mild"}],"medication":[{"name":"IBU","dose":454.7,"frequency":"Yearly"},{"name":"Allergy and Sinus Headache","dose":103.8,"frequency":"Daily"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2002-04-01"},{"name":"Polio (IPV)","date":"2006-04-10"},{"name":"Chickenpox","date":"2001-07-07"}],"history": []},
-    {"id":14,"firstName":"Linn","lastName":"Becks","email":"lbecksd@vk.com","gender":"Female","dob":"2004-07-20","bloodGroup":"A-","maritalStatus":"Divorced","smoke":false,"alcohol":true,"adhaar":"1592350976","address":{"street":"41965 Melvin Point","city":"Tempe","state":"AZ","zip":892895},"status":"Out","vital":{"weight":199.8,"height":6.18,"temparature":86.04,"bp":"120/80","pulse":80,"respiration":11},"allergy":[],"medication":[{"name":"OXYGEN","dose":170.6,"frequency":"Seldom"},{"name":"Pollens - Weeds and Garden Plants, Ragweed. Western Ambrosia psilostachya","dose":142.8,"frequency":"Monthly"},{"name":"Ativan","dose":334.1,"frequency":"Weekly"}],"immunization":[{"name":"Measles, mumps, rubella (MMR)","date":"2003-03-10"}],"history": []}
-  ]
-}
+[
+
+  {
+    "id": 1,
+    "firstName": "Merilee",
+    "lastName": "Seeviour",
+    "gender": "Female",
+    "dob": "2002-06-15",
+    "bloodGroup": "A-",
+    "maritalStatus": "Married",
+    "smoke": false,
+    "alcohol": false,
+    "adhaar": "8496805425",
+    "phone": "973-982-6564",
+    "email": "mseeviour0@linkedin.com",
+    "address": {
+      "street": "9743 Sage Drive",
+      "city": "Newark",
+      "state": "NJ",
+      "zip": 470890
+    },
+    "status": "Inactive",
+    "vital": {
+      "weight": 145.27,
+      "height": 4.86,
+      "temperature": 94.31,
+      "bp": "140/90",
+      "pulse": 88,
+      "respiration": 12
+    },
+    "allergy": [
+      {
+        "name": "Peanut",
+        "severity": "Mild"
+      },
+      {
+        "name": "Latex",
+        "severity": "Moderate"
+      }
+    ],
+    "medication": [
+      {
+        "name": "Metformin Hydrochloride",
+        "dose": 418.0,
+        "frequency": "Never"
+      },
+      {
+        "name": "Baclofen",
+        "dose": 258.2,
+        "frequency": "Yearly"
+      },
+      {
+        "name": "Rugby Nicotine Polacrilex Gum, Coated Mint Flavor",
+        "dose": 446.2,
+        "frequency": "Yearly"
+      }
+    ],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2003-04-19"
+      },
+      {
+        "name": "Polio (IPV)",
+        "date": "2009-02-06"
+      }
+    ],
+    "history":[]
+  },
+  {
+    "id": 2,
+    "firstName": "Jolyn",
+    "lastName": "Leaman",
+    "gender": "Female",
+    "dob": "2007-04-07",
+    "bloodGroup": "A-",
+    "maritalStatus": "Married",
+    "smoke": false,
+    "alcohol": true,
+    "adhaar": "5342410452",
+    "phone": "231-841-4727",
+    "email": "jleaman1@independent.co.uk",
+    "address": {
+      "street": "0 South Way",
+      "city": "Muskegon",
+      "state": "MI",
+      "zip": 467361
+    },
+    "status": "In",
+    "vital": {
+      "weight": 85.04,
+      "height": 5.92,
+      "temperature": 82.14,
+      "bp": "120/80",
+      "pulse": 80,
+      "respiration": 10
+    },
+    "allergy": [],
+    "medication": [],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2005-01-08"
+      },
+      {
+        "name": "Polio (IPV)",
+        "date": "2007-09-09"
+      },
+      {
+        "name": "Chickenpox",
+        "date": "2000-12-30"
+      }
+    ],
+    "history":[]
+  },
+  {
+    "id": 3,
+    "firstName": "Courtnay",
+    "lastName": "Igonet",
+    "gender": "Female",
+    "dob": "2006-06-25",
+    "bloodGroup": "A-",
+    "maritalStatus": "Single",
+    "smoke": true,
+    "alcohol": true,
+    "adhaar": "5882170168",
+    "phone": "719-848-2509",
+    "email": "cigonet2@hatena.ne.jp",
+    "address": {
+      "street": "384 Vermont Parkway",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": 697277
+    },
+    "status": "Out",
+    "vital": {
+      "weight": 109.33,
+      "height": 5.85,
+      "temperature": 90.82,
+      "bp": "120/80",
+      "pulse": 97,
+      "respiration": 17
+    },
+    "allergy": [
+      {
+        "name": "Dust",
+        "severity": "Mild"
+      }
+    ],
+    "medication": [
+      {
+        "name": "HOUSE DUST",
+        "dose": 152.6,
+        "frequency": "Once"
+      },
+      {
+        "name": "DESPEC",
+        "dose": 183.9,
+        "frequency": "Yearly"
+      }
+    ],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2002-10-06"
+      }
+    ],
+    "history": [
+      {
+        "type": "Family",
+        "name": "Diabetes",
+        "notes": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "Brien",
+    "lastName": "Chichgar",
+    "gender": "Male",
+    "dob": "2001-08-20",
+    "bloodGroup": "O+",
+    "maritalStatus": "Married",
+    "smoke": true,
+    "alcohol": true,
+    "adhaar": "0423128450",
+    "phone": "281-101-9011",
+    "email": "bchichgar3@ebay.com",
+    "address": {
+      "street": "01 Heath Lane",
+      "city": "Katy",
+      "state": "TX",
+      "zip": 988797
+    },
+    "status": "In",
+    "vital": {
+      "weight": 112.18,
+      "height": 5.85,
+      "temperature": 104.18,
+      "bp": "120/80",
+      "pulse": 92,
+      "respiration": 20
+    },
+    "allergy": [
+      {
+        "name": "Dust",
+        "severity": "Mild"
+      }
+    ],
+    "medication": [
+      {
+        "name": "Estradiol",
+        "dose": 180.8,
+        "frequency": "Yearly"
+      },
+      {
+        "name": "Penicillin V Potassium",
+        "dose": 297.3,
+        "frequency": "Weekly"
+      }
+    ],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2004-10-10"
+      },
+      {
+        "name": "Polio (IPV)",
+        "date": "2006-11-25"
+      }
+    ],
+    "history":[]
+  },
+  {
+    "id": 5,
+    "firstName": "Harli",
+    "lastName": "Preddy",
+    "gender": "Female",
+    "dob": "2002-12-09",
+    "bloodGroup": "AB+",
+    "maritalStatus": "Married",
+    "smoke": false,
+    "alcohol": true,
+    "adhaar": "5639922001",
+    "phone": "707-630-1932",
+    "email": "hpreddy4@youtu.be",
+    "address": {
+      "street": "6 Southridge Street",
+      "city": "Petaluma",
+      "state": "CA",
+      "zip": 410643
+    },
+    "status": "Out",
+    "vital": {
+      "weight": 150.84,
+      "height": 5.57,
+      "temperature": 92.19,
+      "bp": "140/90",
+      "pulse": 93,
+      "respiration": 14
+    },
+    "allergy": [
+      {
+        "name": "Dust",
+        "severity": "Mild"
+      },
+      {
+        "name": "Pencilin",
+        "severity": "Moderate"
+      }
+    ],
+    "medication": [
+      {
+        "name": "Eupatorium comp.",
+        "dose": 212.4,
+        "frequency": "Often"
+      },
+      {
+        "name": "Dopamine Hydrochloride",
+        "dose": 204.6,
+        "frequency": "Once"
+      },
+      {
+        "name": "Oxygen",
+        "dose": 292.8,
+        "frequency": "Once"
+      }
+    ],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2009-11-25"
+      }
+    ],
+    "history": [
+      {
+        "type": "Medical",
+        "name": "Heart",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Lemmie",
+    "lastName": "Mulholland",
+    "gender": "Male",
+    "dob": "2017-12-06",
+    "bloodGroup": "A+",
+    "maritalStatus": "Married",
+    "smoke": true,
+    "alcohol": true,
+    "adhaar": "2157747982",
+    "phone": "704-399-4423",
+    "email": "lmulholland5@wunderground.com",
+    "address": {
+      "street": "90 Haas Hill",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": 422563
+    },
+    "status": "Out",
+    "vital": {
+      "weight": 78.75,
+      "height": 4.91,
+      "temperature": 95.4,
+      "bp": "140/90",
+      "pulse": 93,
+      "respiration": 22
+    },
+    "allergy": [
+      {
+        "name": "Pencilin",
+        "severity": "Mild"
+      },
+      {
+        "name": "Latex",
+        "severity": "Moderate"
+      }
+    ],
+    "medication": [
+      {
+        "name": "SUMATRIPTAN",
+        "dose": 229.0,
+        "frequency": "Weekly"
+      },
+      {
+        "name": "Cefdinir",
+        "dose": 265.5,
+        "frequency": "Never"
+      },
+      {
+        "name": "Calcium Acetate",
+        "dose": 480.9,
+        "frequency": "Often"
+      }
+    ],
+    "immunization": [
+      {
+        "name": "Measles, mumps, rubella (MMR)",
+        "date": "2005-11-22"
+      },
+      {
+        "name": "Polio (IPV)",
+        "date": "2007-02-22"
+      }
+    ],
+    "history":[]
+  }
+]
